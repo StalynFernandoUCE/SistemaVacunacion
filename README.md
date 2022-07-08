@@ -11,7 +11,7 @@ Plantillas de bootstrap
   
   API REST
   
-  JPA
+  Spring Data JPA
   
   https://start.spring.io/
   
@@ -22,6 +22,16 @@ Plantillas de bootstrap
   Configurar las variables de entorno
   
   GIT
+  
+  Lombok
+  
+  Spring Web 
+  
+  JavaScript
+  
+  Html
+  
+  
   
   
 ************************* INICIAR PROYECTO  ************************* 
