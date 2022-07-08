@@ -1,7 +1,7 @@
 # SistemaVacunacion
 sistema de inventario de vacunacion
 
-REQUISITOS Y TECNOLOGIAS
+************************* REQUISITOS Y TECNOLOGIAS ************************* 
 
 Plantillas de bootstrap
 
@@ -21,7 +21,9 @@ Plantillas de bootstrap
   
   Configurar las variables de entorno
   
-INICIAR PROYECTO  
+  GIT
+  
+************************* INICIAR PROYECTO  ************************* 
   
 La línea que tiene "SpringApplication.run", sin esto no iniciará el framwork de Spring.
 
@@ -32,7 +34,7 @@ Si es la primera vez que ejecuta el proyecto también puede ejecutar mvnw instal
 luego de este comando también puede usar java -jar target\webapp2-0.0.1-SNAPSHOT.jar para inciar la aplicaciòn.
 
 
-CONEXION DATABASE
+************************* CONEXION DATABASE ************************* 
 
 Grcias a JPA se puede crear las bases al momento de ejecutar el proyecto para lo cual se deeb cambiar las credenciales del archivo se debe cambiar el nombre de la base y la contraseña para establecer la conexion con PostgreSQL.
 
