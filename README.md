@@ -23,6 +23,7 @@ Plantillas de bootstrap
   
   GIT
   
+  
 ************************* INICIAR PROYECTO  ************************* 
   
 La línea que tiene "SpringApplication.run", sin esto no iniciará el framwork de Spring.
@@ -32,6 +33,8 @@ O iniciar con el apoyo de este comnando la aplicación spring, con el comando mv
 
 Si es la primera vez que ejecuta el proyecto también puede ejecutar mvnw install el cuál instalará todas las dependencias al mismo tiempo que compilará la aplicación, 
 luego de este comando también puede usar java -jar target\webapp2-0.0.1-SNAPSHOT.jar para inciar la aplicaciòn.
+
+
 
 
 ************************* CONEXION DATABASE ************************* 
