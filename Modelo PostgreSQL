@@ -1,0 +1,44 @@
+-- Table: public.usuarios
+
+-- DROP TABLE IF EXISTS public.usuarios;
+
+CREATE TABLE IF NOT EXISTS public.usuarios
+(
+    id_user integer NOT NULL DEFAULT nextval('usuarios_id_user_seq'::regclass),
+    apellido character varying(255) COLLATE pg_catalog."default",
+    cedula character varying(255) COLLATE pg_catalog."default",
+    domicilio character varying(255) COLLATE pg_catalog."default",
+    dosis character varying(255) COLLATE pg_catalog."default",
+    email character varying(255) COLLATE pg_catalog."default",
+    estado_vacuna character varying(255) COLLATE pg_catalog."default",
+    fecha_nacimiento timestamp without time zone,
+    fecha_vacuna timestamp without time zone,
+    nombre character varying(255) COLLATE pg_catalog."default",
+    clave character varying(255) COLLATE pg_catalog."default",
+    telefono character varying(255) COLLATE pg_catalog."default",
+    tipo_vacuna character varying(255) COLLATE pg_catalog."default",
+    CONSTRAINT usuarios_pkey PRIMARY KEY (id_user)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.usuarios
+    OWNER to postgres;
+    
+    
+    
+-- Table: public.rol
+
+-- DROP TABLE IF EXISTS public.rol;
+
+CREATE TABLE IF NOT EXISTS public.rol
+(
+    id_rol integer NOT NULL DEFAULT nextval('rol_id_rol_seq'::regclass),
+    nombre_rol character varying(255) COLLATE pg_catalog."default",
+    CONSTRAINT rol_pkey PRIMARY KEY (id_rol)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.rol
+    OWNER to postgres;    
