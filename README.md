@@ -1,14 +1,25 @@
 # SistemaVacunacion
 sistema de inventario de vacunacion
 
+REQUISITOS Y TECNOLOGIAS
+
 Plantillas de bootstrap
 
-Herramientas
   Intellij Idea
+  
   Postgresql
+  
   API REST
+  
   JPA
+  
   https://start.spring.io/
+  
+  Maven
+  
+  Java 11
+  
+  Configurar las variables de entorno
   
 INICIAR PROYECTO  
   
